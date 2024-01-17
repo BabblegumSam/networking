@@ -96,7 +96,7 @@ function setup() {
 
   text("you are at an art networking event", -windowWidth/4, -windowHeight/4, windowWidth/2);
 
-  text("by only saying the word 'art', " + random(instruction2), windowWidth/4, -windowHeight/4, windowWidth/2);
+  text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
 
