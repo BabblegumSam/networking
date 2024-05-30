@@ -98,8 +98,10 @@ function setup() {
 
   background(255);
 
+
   push();
-  translate(windowWidth/2, windowHeight/2);
+  translate(width/2, height/2);
+
   textWrap(WORD);
 
   textAlign(CENTER);
