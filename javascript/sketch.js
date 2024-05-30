@@ -79,15 +79,15 @@ const instruction = [
   "act like you want something from someone else"
 ];
 
-const instruction2 = [
-  "try to network with other people",
-  "critique the artworks around you as if you could do better",
-  "act like you want to be here but don't know what to do",
-  "make it known that you hate art",
-  "pretend that you understand art even though you don't",
-  "act like you're an important guest of honour",
-  "act like you want to network but feel as if you are not good enough"
-];
+// const instruction2 = [
+//   "try to network with other people",
+//   "critique the artworks around you as if you could do better",
+//   "act like you want to be here but don't know what to do",
+//   "make it known that you hate art",
+//   "pretend that you understand art even though you don't",
+//   "act like you're an important guest of honour",
+//   "act like you want to network but feel as if you are not good enough"
+// ];
 
 
 function setup() {
@@ -100,7 +100,8 @@ function setup() {
 
 
   push();
-  translate(width/2, height/2);
+  translate(width / 2, height / 2);
+  fill(0);
 
   textWrap(WORD);
 
@@ -112,7 +113,8 @@ function setup() {
   // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
-  text("without speaking, " + random(instruction), 0, 0, width - width/1.5);
+  // text("without speaking, " + random(instruction), -windowWidth/4, -windowHeight/4, windowWidth/2);
+  text("without speaking, " + random(instruction), -width/4, -0, windowWidth/2);
 
 
 
