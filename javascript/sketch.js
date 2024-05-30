@@ -94,7 +94,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("sketch-container");
 
-  adjust = windowWidth / 20;
+  adjust = windowWidth / 10;
 
   background(255);
 
