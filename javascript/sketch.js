@@ -114,7 +114,7 @@ function setup() {
 
 
   // text("without speaking, " + random(instruction), -windowWidth/4, -windowHeight/4, windowWidth/2);
-  text("without speaking, " + random(instruction), -width/4, -0, windowWidth/2);
+  text("without speaking, " + random(instruction), -width/4, -0, width/2);
 
 
 
