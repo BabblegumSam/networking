@@ -99,7 +99,7 @@ function setup() {
   background(255);
 
   push();
-  // translate(windowWidth/2, windowHeight/2);
+  translate(windowWidth/2, windowHeight/2);
   textWrap(WORD);
 
   textAlign(CENTER);
@@ -111,7 +111,7 @@ function setup() {
   // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
-  text("without speaking, " + random(instruction), width/2, height/2, width/3);
+  text("without speaking, " + random(instruction), 0, 0, width/3);
 
 
 
