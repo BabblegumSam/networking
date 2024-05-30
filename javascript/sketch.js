@@ -110,7 +110,7 @@ function setup() {
   // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
-  text("without speaking, " + random(instruction), 0, 0, width/2);
+  text("without speaking, " + random(instruction), 0, 0, width - width/1.5);
 
 
 
