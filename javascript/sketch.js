@@ -94,34 +94,26 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("sketch-container");
 
-  adjust = windowWidth / 20;
+  adjust = windowWidth / 40;
 
   background(255);
 
   push();
-  translate(width / 2, height / 2);
+  // translate(windowWidth/2, windowHeight/2);
   textWrap(WORD);
 
   textAlign(CENTER);
-  actionsDisplay();
   textSize(adjust);
+  fill(0);
 
   // text("you are at an art networking event", -windowWidth/4, -windowHeight/4, windowWidth/2);
 
   // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
-  text("without speaking, " + random(instructions), -windowWidth/2, windowHeight/2, windowWidth/2);
+  text("without speaking, " + random(instruction), width/2, height/2, width/3);
 
 
 
   pop();
-}
-
-function draw() {
-
-}
-
-function actionsDisplay() {
-
 }
