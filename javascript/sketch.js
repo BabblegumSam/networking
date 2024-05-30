@@ -104,14 +104,13 @@ function setup() {
 
   textAlign(CENTER);
   textSize(adjust);
-  fill(0);
 
   // text("you are at an art networking event", -windowWidth/4, -windowHeight/4, windowWidth/2);
 
   // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
 
-  text("without speaking, " + random(instruction), 0, 0, width/3);
+  text("without speaking, " + random(instruction), 0, 0, width/2);
 
 
 
