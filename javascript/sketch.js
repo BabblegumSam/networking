@@ -1,6 +1,18 @@
 let canvas;
 let adjust;
 
+
+const instructions = [
+  " act like you don't want to be here",
+  " act like you're interested in what someone else is doing",
+  " act like you want to be here but don't know what to do",
+  " make it known to everyone else that you don't want to be here",
+  " pretend that you know what you are doing here",
+  " act like you're important",
+  " act like you want something from someone else"
+];
+
+
 // Instructions on how to look
 
 // Maybe separate into 3 Classes: PRIESTS, PROFESSIONALS, NPCS
@@ -94,10 +106,12 @@ function setup() {
   actionsDisplay();
   textSize(adjust);
 
-  text("you are at an art networking event", -windowWidth/4, -windowHeight/4, windowWidth/2);
+  // text("you are at an art networking event", -windowWidth/4, -windowHeight/4, windowWidth/2);
 
-  text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
+  // text("by only saying the word 'art', " + random(instruction2), -windowWidth/4, windowHeight/4, windowWidth/2);
 
+
+  text("without speaking, " + random(instructions), -windowWidth/2, windowHeight/2, windowWidth/2);
 
 
 
